@@ -1,63 +1,65 @@
-<<<<<<< HEAD
-Jewellery E-Commerce Website
+# G-Crown E-Commerce
 
-A responsive jewellery e-commerce web application built to showcase products with a clean UI and smooth shopping experience. The project focuses on modern frontend practices, reusable components, and performance optimization.
+A modern full-stack jewellery e-commerce application focused on premium UI, responsive design, and scalable architecture.
 
-⸻
+## Tech Stack
 
-Overview
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
 
-This project simulates a real-world jewellery shopping platform where users can browse products, view details, and experience a structured e-commerce flow. The application emphasizes UI clarity, responsiveness, and performance.
+### Backend
+- Node.js
+- Express.js
 
-⸻
+### Integrations
+- Clerk Authentication
+- Dodo Payments
 
-Features
-	•	Responsive product listing and layout
-	•	Clean and user-friendly shopping interface
-	•	Reusable React components for scalability
-	•	Optimized rendering for improved page load performance
-	•	Mobile-first responsive design
+---
 
-⸻
+## Features
 
-Tech Stack
-	•	React.js
-	•	JavaScript (ES6+)
-	•	Tailwind CSS
+- Responsive modern UI
+- Product collections & filtering
+- Reusable component architecture
+- Authentication integration
+- Payment-ready structure
+- Optimized frontend performance
 
-⸻
+---
 
-Project Focus
-	•	Component-based frontend architecture
+## Project Structure
 
-  
-⸻
+```bash
+G-Crown-e-commerce/
+├── frontend/
+└── backend/
+```
 
-Getting Started
-git clone https://github.com/your-username/jewellery-ecommerce.git
-cd jewellery-ecommerce
+---
+
+## Getting Started
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
 npm install
 npm start
+```
 
-⸻
+## Author
 
-Future Improvements
-	•	Add cart and checkout functionality
-	•	Integrate backend APIs
-	•	Implement user authentication
-	•	Payment gateway integration
+**Sumit Kasaudhan**
 
-⸻
-
-Author
-
-Ritesh Sharma
-Frontend Developer
-	•	GitHub: https://github.com/ri00099
-	•	LinkedIn: https://www.linkedin.com/in/ritesh-sharma-14s6/
-	•	Responsive UI using Tailwind CSS
-	•	Performance optimization through reusable and lightweight components
-	•	Real-world e-commerce UI patterns
-=======
-# G-Crown-e-commerce
->>>>>>> 77856aae6ca6b815d9ec9aa0f07e42f53cd0798e
+- GitHub: https://github.com/SumitKasaudhan
