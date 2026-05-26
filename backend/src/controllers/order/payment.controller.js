@@ -1,23 +1,17 @@
 
 import crypto from "crypto";
-import razorpay from "../../configs/razorpay.js";
+//import razorpay from "../../configs/razorpay.js";//
 import Order from "../../models/order/Order.js";
 import productModel from "../../models/common/product.models.js";
 
 export const createOrder = async (req, res) => {
   try {
-    const { amount } = req.body; // rupees
-
-    const order = await razorpay.orders.create({
-      amount: amount * 100, // paise
-      currency: "INR",
-      receipt: "order_" + Date.now()
+    return res.status(200).json({
+      success: true,
+      message: "Payment disabled temporarily"
     });
 
-    res.json(order);
   } catch (err) {
-
-
     res.status(500).json({ error: err.message });
   }
 };
