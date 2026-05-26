@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Jewellery E-Commerce Website
 
 A responsive jewellery e-commerce web application built to showcase products with a clean UI and smooth shopping experience. The project focuses on modern frontend practices, reusable components, and performance optimization.
@@ -57,3 +58,6 @@ Frontend Developer
 	•	Responsive UI using Tailwind CSS
 	•	Performance optimization through reusable and lightweight components
 	•	Real-world e-commerce UI patterns
+=======
+# G-Crown-e-commerce
+>>>>>>> 77856aae6ca6b815d9ec9aa0f07e42f53cd0798e
