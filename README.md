@@ -38,8 +38,6 @@ G-Crown-e-commerce/
 └── backend/
 ```
 
----
-
 ## Getting Started
 
 ### Frontend
